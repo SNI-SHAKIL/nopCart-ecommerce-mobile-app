@@ -40,6 +40,10 @@ public class Nopcart_ecommerce_apps {
 			driver = new AppiumDriver<MobileElement>(url,caps);
 			
 			
+			
+			
+			
+			
 			//Scenario: 01 Customer add products in his shopping cart
 			
 			// I READ & I ACCEPT when app first time on  //android.widget.Button[@text = 'I READ & I ACCEPT']
@@ -102,6 +106,10 @@ public class Nopcart_ecommerce_apps {
 			Thread.sleep(3000);
 			MobileElement click_cart=driver.findElement(By.xpath("//android.widget.Button[@text = 'ADD TO CART']"));
 			click_cart.click();	
+			
+			
+			
+			
 			
 			
 			
